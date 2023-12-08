@@ -259,9 +259,8 @@
 }
 
 #sticky-header-with-topbar {
-  background-color: #3C4142;
+  background: radial-gradient(circle, #3C4142, #6A7380);
 }
-
 
 
 

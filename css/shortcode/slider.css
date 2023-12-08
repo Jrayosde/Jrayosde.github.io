@@ -78,15 +78,14 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
-    height: 45px;
     line-height: 45px;
     padding: 0 25px;
     transition: 0.5s;
-    border: 1px solid #B90E08;
+    border: 3px solid #B90E08;
 }
 .htc__btn:hover{
-    border: 1px solid #B90E08;
-    background: transparent;
+    border: 3px solid #B90E08;
+    background: #fff;
     color:#B90E08;
 }
 
@@ -124,12 +123,12 @@
     font-size: 30px;
 }
 .slider__activation__wrap.owl-theme .owl-nav [class*="owl-"] {
-    background: #1f2d30 none repeat scroll 0 0;
+    background: #88674E none repeat scroll 0 0;
     transition: 0.5s;
 }
 
 .slider__activation__wrap.owl-theme .owl-nav [class*="owl-"]:hover {
-    background: rgba(184, 144, 37, 0.6) none repeat scroll 0 0;
+    background: #B90E08 none repeat scroll 0 0;
 }
 
 
