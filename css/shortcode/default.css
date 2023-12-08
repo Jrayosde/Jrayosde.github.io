@@ -251,7 +251,7 @@ img:last-child {
   margin-bottom: 0;
 }
 body {
-  background: #fff;
+  background: #151515;
 }
 .mark, mark {
     background: #B90E08 none repeat scroll 0 0;
@@ -273,7 +273,7 @@ body {
     background: #151515;
 }
 .bg__cat--1{
-  background: #151515;
+  background: radial-gradient(circle, #151515, #88674E);
 }
 
 

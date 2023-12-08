@@ -20,6 +20,9 @@
 /*----------------------------------
   Header Top Area
 -------------------------------------*/
+.htc__header__top {
+  background: #151515;
+}
 
 .heaher__top__left {
     align-items: center;
@@ -259,7 +262,7 @@
 }
 
 #sticky-header-with-topbar {
-  background: radial-gradient(circle, #3C4142, #6A7380);
+  background: radial-gradient(circle, #151515, #88674E);
 }
 
 
