@@ -483,7 +483,11 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
   
-.container {width:300px}
+/*.container {width:300px}*/
+
+.slider__container .container {
+  width:auto !important;
+}
 
 
 /*------------------
