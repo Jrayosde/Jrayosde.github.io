@@ -179,7 +179,7 @@
     margin-top: 10px;
 }
 .about {
-    background: #fff none repeat scroll 0 0;
+    background: #151515 none repeat scroll 0 0;
     padding-bottom: 30px;
     padding-top: 30px;
     position: relative;
@@ -274,7 +274,7 @@ About 2
     text-transform: uppercase;
 }
 .section__title p {
-    color: #606060;
+    color: #fff;
     margin: 21px auto auto;
     width: 57%;
 }
@@ -324,7 +324,7 @@ About 2
     color: #000;
 }
 .service__details h2 {
-    color: #3C4142;
+    color: #fff;
     font-size: 20px;
     font-weight: 700;
     margin-top: 18px;
@@ -370,13 +370,13 @@ About 2
     margin-right: 18px;
 }
 .offer__details p {
-  color: #606060;
+  color: #fff;
   font-size: 14px;
   line-height: 24px;
   padding-right: 29px;
 }
 .offer__details h2 {
-    color: #3C4142;
+    color: #fff;
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;

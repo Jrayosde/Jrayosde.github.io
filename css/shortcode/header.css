@@ -39,9 +39,10 @@
     display: flex;
     margin-right: 47px;
 }
-.heaher__top__left li {
-    color: #fff;
-    font-size: 12px;
+.heaher__top__left li,
+.heaher__top__left a  {
+    color: #B90E08;
+    font-size: 14px;
 }
 .heaher__top__left li + li {
     margin-left: 47px;
@@ -89,10 +90,10 @@
   margin-right: -15px;
 }
 .main__menu > li > a {
-  color: #FFF;
+  color: #B90E08;
   display: block;
   font-family: Raleway;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   height: 130px;
   line-height: 130px;
@@ -103,7 +104,7 @@
   position: relative;
 }
 .main__menu > li:hover > a{
-  color: #B90E08;
+  color: #151515;
 }
 .logo a{
   display: block;
@@ -262,7 +263,12 @@
 }
 
 #sticky-header-with-topbar {
-  background: radial-gradient(circle, #151515, #88674E);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(136,103,78,1) 100%);
+}
+
+.htc__header__top {
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(136,103,78,1) 100%);
+
 }
 
 

@@ -125,7 +125,7 @@
     font-weight: 600;
 }
 .copyright__inner p a {
-    color: #B90E08;
+    color: #fff;
     padding: 0 3px;
     text-transform: capitalize;
     transition: all 0.3s ease 0s;
