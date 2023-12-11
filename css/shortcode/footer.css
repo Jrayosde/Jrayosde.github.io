@@ -125,7 +125,7 @@
     font-weight: 600;
 }
 .copyright__inner p a {
-    color: #fff;
+    color: #151515;
     padding: 0 3px;
     text-transform: capitalize;
     transition: all 0.3s ease 0s;
@@ -136,6 +136,10 @@
 .footer.quick__link {
   left: 67px;
   position: relative;
+}
+
+.copyright {
+    background-color: #88674E !important;
 }
 
 

@@ -1196,7 +1196,7 @@ About 2
     margin-top: 50px;
 }
 .single__mission h2 {
-    color: #3C4142;
+    color: #B90E08;
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 12px;
@@ -1204,8 +1204,8 @@ About 2
 }
 .single__mission p {
     padding-right: 33px;
+    color: #fff;
 }
-
 
 
 
@@ -1750,6 +1750,22 @@ blockquote {
   21. Contact Area
 ----------------------------------------*/
 
+.title__line--5 {
+    color: #3C4142;
+    display: inline-block;
+    font-family: Open Sans;
+    font-weight: 700;
+    padding-bottom: 18px;
+    position: relative;
+    text-transform: uppercase;
+}
+.htc__contact__inner p {
+    margin-top: 37px;
+    width: 76%;
+}
+.contact-page p, .contact-page h2, .contact-page a, .contact-page i {
+    color: #fff !important;
+}
 .title__line--5 {
     color: #3C4142;
     display: inline-block;
