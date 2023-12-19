@@ -332,9 +332,11 @@
                                                 $navreveal.css("font-size", meanMenuCloseSize);
                                                 jQuery('.mean-nav ul:first').slideDown();
                                                 menuOn = true;
+                                                jQuery('.mean-nav').css("margin-bottom", "25px"); // Add margin-bottom when the menu is open
                                         } else {
                                             jQuery('.mean-nav ul:first').slideUp();
                                             menuOn = false;
+                                            jQuery('.mean-nav').css("margin-bottom", "0"); // Remove margin-bottom when the menu is closed
                                         }
                                             $navreveal.toggleClass("meanclose");
                                             meanInner();

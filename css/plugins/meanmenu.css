@@ -52,10 +52,15 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav {
-  background: #3C4142 none repeat scroll 0 0;
+  background: #3C4142;
   float: left;
   margin-top: 10px;
   width: 100%;
+}
+
+.mean-container .mean-nav li {
+  background-color: #252525;
+  background: url('images/mobile-menu/concrete-wall-3.png') repeat scroll 0 0;
 }
 
 .mean-container .mean-nav ul {
@@ -77,7 +82,7 @@ a.meanmenu-reveal {
   width: 90%;
   padding: 1em 5%;
   margin: 0;
-  text-align: left;
+  text-align: center;
   color: #fff;
   border-top: 1px solid #383838;
   border-top: 1px solid rgba(255,255,255,0.5);

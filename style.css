@@ -1198,6 +1198,7 @@ About 2
 .htc__mission__container .single__mission + .single__mission {
     margin-top: 50px;
 }
+
 .single__mission h2 {
     color: #B90E08;
     font-size: 20px;
@@ -1206,7 +1207,6 @@ About 2
     text-transform: uppercase;
 }
 .single__mission p {
-    padding-right: 33px;
     color: #fff;
 }
 

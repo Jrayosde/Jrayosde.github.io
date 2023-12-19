@@ -482,6 +482,10 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+  .single__mission {
+    text-align: center;
+}
   
 /*.container {width:300px}*/
 
