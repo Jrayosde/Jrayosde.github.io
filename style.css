@@ -1764,7 +1764,6 @@ blockquote {
 }
 .htc__contact__inner p {
     margin-top: 37px;
-    width: 76%;
 }
 .contact-page p, .contact-page h2, .contact-page a, .contact-page i {
     color: #fff !important;
@@ -1780,7 +1779,6 @@ blockquote {
 }
 .htc__contact__inner p {
     margin-top: 37px;
-    width: 76%;
 }
 .title__line--5::before {
     background: #e1e1e1 none repeat scroll 0 0;
@@ -1794,6 +1792,7 @@ blockquote {
 .htc__address__container {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
 }
 .ct__address {
     display: flex;
@@ -1876,7 +1875,9 @@ blockquote {
   text-transform: uppercase;
 }
 
-
+.htc__contact__inner {
+    text-align: center;
+}
 
 
 
