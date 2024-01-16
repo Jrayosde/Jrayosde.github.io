@@ -583,10 +583,18 @@
 }
 .newsletter__thumb,
 .text__shape,
-.htc__offer--2 .h1__offer__image,
-.slider__activation__wrap.owl-theme .owl-nav {
+.htc__offer--2 .h1__offer__image{
   display: none;
 }
+.owl-prev, .owl-next {
+  width: 20px !important;
+  height: 50px !important;
+  padding: unset !important;
+  }
+  .owl-stage-outer .slider__inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 .counterup__left__thumb {
   margin-left: 0;
   margin-right: 0;
