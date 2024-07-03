@@ -9,3 +9,44 @@
 /* ----------------------------------------------------
 	You can put your custom css code here: 
 -------------------------------------------------------*/
+
+
+.htc__service__area i {
+  display: flex !important;
+  align-items: center;
+}
+
+.htc__service__area li {
+  display: flex;
+  align-items: baseline;
+}
+
+.htc__service__area i::before {
+  padding-right: 8px;
+}
+
+.service__section__wrap p, .service__section__wrap h2 {
+  color: #fefefe;
+}
+
+.service__section__wrap i {
+  color: #B90E08;
+}
+
+.service__section__wrap ul li {
+  padding-top: 10px; /* Adjust the value as needed */
+  padding-bottom: 10px; /* Adjust the value as needed */
+}
+
+html {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.service-title {
+  justify-content: center;
+}
+
+.und {
+  text-decoration: underline;
+}
+
