@@ -280,12 +280,20 @@ About 2
 }
 .service__thumb a img {
     width: 100%;
+    height: -webkit-fill-available;
+}
+
+.service 
+{
+    height: 400px;
 }
 .service__thumb {
     position: relative;
 }
 .service__section__wrap .service__thumb {
   margin-left: -15px;
+  height: -webkit-fill-available;
+
 }
 .service__hover {
     height: 100%;
@@ -315,7 +323,6 @@ About 2
 }
 .service__action a {
     color: #fefefe;
-    font-family: Raleway;
     font-size: 20px;
     font-weight: 700;
     transition: all 0.4s ease 0s;
