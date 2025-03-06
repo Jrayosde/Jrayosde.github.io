@@ -16,7 +16,9 @@
 
 */
 
-
+.subheader {
+  font-weight: 700;
+}
 /*----------------------------------
   Header Top Area
 -------------------------------------*/
@@ -92,7 +94,7 @@
 .main__menu > li > a {
   color: #B90E08;
   display: block;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 600;
   height: 130px;
   line-height: 130px;
@@ -113,9 +115,12 @@
     height: 130px;
     line-height: 130px;
 }
+
 .main__menu li {
-    padding: 0 15px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
+
 .htc__header__search {
     align-items: center;
     display: flex;

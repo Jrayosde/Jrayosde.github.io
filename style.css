@@ -43,12 +43,6 @@
 
 /*
 
-    font-family: 'Raleway', sans-serif;
-
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Josefin Sans', sans-serif;
-
 
 */
 
@@ -161,7 +155,6 @@
     margin-top: 15px;
 }
 .about__btn a {
-    font-family: Raleway;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -255,7 +248,6 @@ About 2
 
 .text__shape h2 {
     color: #f7f7f7;
-    font-family: Josefin Sans;
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 15px;
@@ -373,18 +365,13 @@ About 2
 .offer__icon img {
     max-width: 47px;
 }
-.offer__icon {
-    margin-right: 18px;
-}
 .offer__details p {
   color: #fff;
-  font-size: 14px;
   line-height: 24px;
   padding-right: 29px;
 }
 .offer__details h2 {
     color: #fff;
-    font-size: 24px;
     font-weight: 700;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -421,7 +408,6 @@ About 2
     padding: 69px 0;
 }
 .htc__offer__2 .offer__details h2 {
-    font-size: 20px;
     margin-bottom: 3px;
 }
 
@@ -475,7 +461,6 @@ About 2
 }
 .project__action h2 {
     color: #fefefe;
-    font-size: 20px;
     font-weight: 700;
 }
 .project__hover__info::before {
@@ -493,7 +478,6 @@ About 2
 
 .project__action h4 {
     color: #fff;
-    font-size: 16px;
     font-weight: 700;
     margin-top: 17px;
 }
@@ -530,14 +514,12 @@ About 2
 }
 .callto__action__wrap h2 {
     color: #fffffe;
-    font-size: 32px;
     font-weight: 700;
     text-transform: uppercase;
 }
 .htc__btn--transparent {
     border: 1px solid #fff;
     display: inline-block;
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
     height: 45px;
@@ -621,7 +603,6 @@ About 2
 }
 .team__details h4 {
     color: #ffffff;
-    font-family: Open Sans;
     font-weight: 300;
     margin-top: 10px;
     text-transform: capitalize;
@@ -713,7 +694,6 @@ About 2
 }
 .testimonial__details h2 {
     color: #303030;
-    font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
     margin-top: 30px;
@@ -721,7 +701,6 @@ About 2
 }
 .testimonial__details h4 {
     color: #606060;
-    font-family: open sans;
     font-size: 14px;
     margin-top: 7px;
 }
@@ -893,7 +872,6 @@ About 2
 }
 .blog__btn a {
     color: #b6b6b6;
-    font-family: Raleway;
     font-weight: 700;
     text-transform: uppercase;
     transition: all 0.4s ease 0s;
@@ -1011,7 +989,6 @@ About 2
 }
 .newsletter__wrap h4 {
     color: #606060;
-    font-family: Open Sans;
     font-size: 18px;
 }
 .newsletter__form {
@@ -1046,7 +1023,6 @@ About 2
     background: #B90E08 none repeat scroll 0 0;
     border: 1px solid #B90E08;
     color: #fff;
-    font-family: Raleway;
     font-size: 12px;
     font-weight: 700;
     height: 35px;
@@ -1172,7 +1148,6 @@ About 2
   text-transform: uppercase;
 }
 .bradcaump-inner a {
-    font-family: Raleway;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1358,7 +1333,6 @@ About 2
 }
 .post__details h4 {
     color: #303030;
-    font-family: Open Sans;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 4px;
@@ -1483,7 +1457,6 @@ blockquote {
 .title__line--3 {
     color: #3C4142;
     display: inline-block;
-    font-family: Open Sans;
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 50px;
@@ -1517,7 +1490,6 @@ blockquote {
 }
 .bl__comment__meta h2 {
     color: #3C4142;
-    font-family: Open Sans;
     font-size: 16px;
     font-weight: 600;
     margin-right: 9px;
@@ -1682,12 +1654,10 @@ blockquote {
 }
 .pro__dtl__list li {
     color: #3C4142;
-    font-family: Open Sans;
     font-size: 16px;
 }
 .pro__dtl__list.font__bold li {
     color: #3C4142;
-    font-family: Raleway;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1763,7 +1733,6 @@ blockquote {
 .title__line--5 {
     color: #3C4142;
     display: inline-block;
-    font-family: Open Sans;
     font-weight: 700;
     padding-bottom: 18px;
     position: relative;
@@ -1778,7 +1747,6 @@ blockquote {
 .title__line--5 {
     color: #3C4142;
     display: inline-block;
-    font-family: Open Sans;
     font-weight: 700;
     padding-bottom: 18px;
     position: relative;

@@ -63,7 +63,7 @@
 }
 .slider__inner p {
     color: #ffffff;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
     margin: 23px auto auto;
     width: 57%;
@@ -75,8 +75,7 @@
     background: #B90E08 none repeat scroll 0 0;
     color: #fff;
     display: inline-block;
-    font-family: Raleway;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     line-height: 45px;
     padding: 0 15px;
@@ -125,7 +124,7 @@
     font-size: 30px;
 }
 .slider__activation__wrap.owl-theme .owl-nav [class*="owl-"] {
-    background: #88674E none repeat scroll 0 0;
+    background: #B90E08 none repeat scroll 0 0;
     transition: 0.5s;
 }
 

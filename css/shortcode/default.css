@@ -200,6 +200,9 @@ a:focus,
 a:active {
     color: #B90E08;
 }
+p {
+  font-size: 20px;
+}
 p a:hover,
 p a:focus,
 p a:active {
