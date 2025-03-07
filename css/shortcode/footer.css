@@ -29,7 +29,6 @@
 }
 .ht__address__details p {
     color: #fafafa;
-    font-size: 16px;
     font-weight: 500;
 }
 .ht__address__icon i {
@@ -56,9 +55,7 @@
 .ht__address__details {
   margin-top: -2px;
 }
-.htc__contact__address {
-    padding: 56px 0;
-}
+
 .ht__address__icon {
     margin-right: 20px;
     min-width: 47px;
@@ -121,7 +118,6 @@
 }
 .copyright__inner p {
     color: #fff;
-    font-size: 18px;
     font-weight: 600;
 }
 .copyright__inner p a {

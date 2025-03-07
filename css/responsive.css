@@ -45,9 +45,6 @@
 .htc__offer__2 .htc__offer__container {
   padding: 46px 0;
 }
-.htc__mission__container {
-  padding: 58px 0;
-}
 .htc__mission__container .single__mission + .single__mission {
   margin-top: 30px;
 }
@@ -56,6 +53,10 @@
 }
 .slider__fixed--height {
   height: 645px;
+}
+.header-img, 
+.ht__bradcaump__wrap {
+  height: 600px;
 }
 .text__shape {
   left: 12px;
@@ -193,6 +194,10 @@
 .slider__fixed--height {
   height: 650px;
 }
+.header-img ,
+.ht__bradcaump__wrap{
+  height: 600px;
+}
 .slider__inner p {
   width: 51%;
 }
@@ -279,7 +284,28 @@
 
 }
 
- 
+@media (max-width: 991px){
+  .aboutusrow {
+    display: block;
+  }
+  .about__inner.about__hober__info.active {
+    transform: scaleY(0);
+  }
+  .about:hover .about__inner.about__hober__info {
+    transform: scaleY(0);
+  }
+  .about {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 40px;
+  }
+  .offer.separator::before {
+    display: none;
+  }
+} 
+
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -402,6 +428,10 @@
 .slider__fixed--height {
   height: 680px;
 }
+.header-img,
+.ht__bradcaump__wrap {
+  height: 600px;
+}
 .service__thumb img,
 .counterup__left__thumb img {
   width: 100%;
@@ -426,6 +456,10 @@
 }
 .slider__fixed--height {
   height: 560px;
+}
+.header-img,
+.ht__bradcaump__wrap {
+  height: 500px;
 }
 .about__inner.about__hober__info.active {
   transform: scaleY(0);
@@ -483,8 +517,16 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
+  p {
+    font-size: 16px !important;
+  }
+
   .single__mission {
     text-align: center;
+}
+
+.offer.separator {
+  padding-left: 0;
 }
   
 /*.container {width:300px}*/
@@ -612,6 +654,10 @@
 .slider__fixed--height {
   height: 100vh;
 }
+.header-img,
+.ht__bradcaump__wrap {
+  height: 90vh;
+}
 .project__hover__info::before {
   bottom: 10px;
   left: 10px;
@@ -671,9 +717,6 @@
 .htc__counterup__wrap {
   text-align: center;
 }
-.offer.separator::before {
-  display: none;
-}
 .testimonial__2 .htc__testimonial__wrap .slick-dots {
   bottom: -50px;
   left: 0;
@@ -700,12 +743,8 @@
   min-width: 100%;
 }
 .slider__inner p {
-  font-size: 14px;
   line-height: 24px;
   margin: 9px auto auto;
-}
-.about {
-  margin-top: 40px;
 }
 .footer.quick__link {
   left: 0;
@@ -801,6 +840,10 @@ blockquote {
 .slider__fixed--height {
   height: auto;
 }
+.header-img,
+.ht__bradcaump__wrap {
+  height: auto;
+}
 .slide__align--center {
   padding: 100px 0;
 }
@@ -825,17 +868,9 @@ blockquote {
 .slider__fixed--height {
   height: 560px;
 }
-.about__inner.about__hober__info.active {
-  transform: scaleY(0);
-}
-.about:hover .about__inner.about__hober__info {
-  transform: scaleY(0);
-}
-.about {
-  padding-bottom: 0;
-  padding-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+.header-img,
+.ht__bradcaump__wrap {
+  height: 500px;
 }
 .service--2 .container-fluid {
   padding-left: 0;
@@ -874,6 +909,11 @@ blockquote {
 .slider__fixed--height {
   height: 400px;
   padding: 0;
+}
+.header-img,
+.ht__bradcaump__wrap {
+  height: 400px;
+  padding:0;
 }
 .slider__inner h1 {
   font-size: 30px;
@@ -934,9 +974,22 @@ blockquote {
 .ptb--120 {
   padding: 50px 0;
 }
-    
-    
-    
+
+ /* About Page */   
+
+.htc__mission__container {
+  padding: 0 20px;
+}
+.htc__offer__thumb__inner {
+  padding-top: 0px;
+}
+
+.htc__offer__thumb__inner img {
+  width: 100%;
+}
+
+/* Service Section */
+
 
 }
 

@@ -671,6 +671,11 @@ textarea:focus {
 .pb--150 { padding-bottom: 150px }
 .pb--170 { padding-bottom: 170px }
 
+/*------------------------
+  18. Padding left
+---------------------------*/
+.pl--30 { padding-left: 30px }
+
 
 /*------------------------------
   19. Page section padding 
@@ -761,6 +766,11 @@ p.success {
 }
 p.error {
   color: red;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
 /*-----------------------------------------

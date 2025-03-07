@@ -44,7 +44,7 @@
 .heaher__top__left li,
 .heaher__top__left a  {
     color: #B90E08;
-    font-size: 14px;
+    font-size: 16px;
 }
 .heaher__top__left li + li {
     margin-left: 47px;
@@ -276,7 +276,11 @@
 }
 
 
+/* Header Image */
 
+.header-img, .ht__bradcaump__wrap {
+  height: 700px;
+}
 
 
 
